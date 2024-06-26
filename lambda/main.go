@@ -35,7 +35,7 @@ func handleRequest() (int, error) {
 	result, err := svc.GetItem(&dynamodb.GetItemInput{
 		TableName: aws.String(tableName),
 		Key: map[string]*dynamodb.AttributeValue{
-			"id": {
+			"ID": {
 				S: aws.String("0"),
 			},
 		},
