@@ -1,4 +1,4 @@
-# Terraform
+# Backend
 
 ## What is this?
 This is the backend configuration repository for the [cloud resume challenge 2.0](https://github.com/Thab310/cloud-resume-challenge-2.0). This repository houses a lambda function and the (iac) terraform script for the project. It runs it's own CI/CD pipeline through github actions. 
