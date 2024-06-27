@@ -1,0 +1,22 @@
+name: Backend
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Project Status
+      run: echo "Hello, World! backend is still under maintence"
+
+    - name: Current Date
+      run: date
+
+    - name: List Files
+      run: ls -l
